@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: '''';
+  display: table;
+  clear: both;
+}
+
+.login {
+  height: 100px;
+  background-color: #D8F2F2;
+  border-bottom: 2px solid #111230;
+}
+
+
+.nav {
+  height: 100px;
+  background-color: white;
+}
+
+.freetools {
+  height: 300px;
+  width: 100%;
+  background-color: #F0D8EF;
+  border-bottom: 5px solid #111230;
+
+}
+
+.separatore {
+  height: 100px;
+  background-color: #4FE8CF;
+  border-bottom: 5px solid #111230;
+}
+
+
+.learn-more {
+  height: 700px;
+  background-color: #D3E8E7;
+}
+
+.tabella {
+  height: 400px;
+  background-color: #149992;
+}
+
+.sponsor {
+  height: 400px;
+  background-color: #EDF2F2;
+}
+
+.footer {
+  height: 350px;
+  background-color: #191E4A;
+}
