@@ -4,13 +4,15 @@
   box-sizing: border-box;
 }
 
-.conteiner {
+.container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
-
 .row::after {
-  content: '''';
+  content: '';
   display: table;
   clear: both;
 }
@@ -35,7 +37,7 @@
 
 
 .nav {
-  width: 100%;
+  width: 50%;
 }
 
 .row .nav {
@@ -44,11 +46,11 @@
 
 
 .freetools {
-  width: 100%
+  width: 50%
 }
 
-.h-300 {
-  height: 300px
+.h-350 {
+  height: 350px
 }
 
 .row .freetools {
@@ -71,15 +73,13 @@
   width: 100%
 }
 
-.h-700 {
-  height: 700px
+.h-1000 {
+  height: 1000px
 }
 
 .row .learn-more {
   background-color: #D3E8D7;
 }
-
-
 
 .tabella {
   width: 100%;
@@ -94,9 +94,8 @@
 }
 
 
-
 .sponsor {
-  width: 100%
+  width: 50%
 }
 
 .row .sponsor {
@@ -106,12 +105,252 @@
 
 .footer {
   width: 100%;
+  color: white;
 }
 
-.h-350 {
-  height: 350px;
+.h-400 {
+  height: 400px;
 }
 
 .row .footer {
-  background-color: #111230;
+  background-color: #4C4FED;
+}
+
+
+.langue-contact {
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  vertical-align: middle;
+}
+
+.search-log-in {
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+
+.logo {
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  vertical-align: middle;
+}
+
+
+ul.menu li {
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 10px;
+}
+
+ul.menu li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #111230;
+}
+
+.menu {
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.titolo-testo {
+  margin-left: 50px;
+  margin-top: 50px;
+  vertical-align: middle;
+
+}
+
+.people {
+  height: 345px;
+  width: 100%;
+  background-color: #F199F2;
+}
+
+.quadratino {
+  height: 80px;
+  width: 80px;
+  background-color: orange;
+  border: 2px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titolo-immagine {
+  background-color: #D3E8D7;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.titolo-immagine-2 {
+  background-color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:left;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.book {
+  float: left;
+  height: 80px;
+  width: 80px;
+  background-color: blue;
+  border: 2px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+ul.opt li {
+  display: inline-block;
+  padding-bottom: 20px;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ul.opt li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #111230;
+}
+
+.opt .clearfix{
+  float: left;
+}
+
+
+.box-1 {
+  background-color: white;
+  height: 400px;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-left: 220px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box-2 {
+ background-color: white;
+ height: 400px;
+ width: 200px;
+ margin-left: 50px;
+ margin-right: 50px;
+ margin-top: 30px;
+ margin-bottom: 25px;
+ border-radius: 5px;
+ text-align: center;
+}
+
+.box-3 {
+ background-color: white;
+ height: 400px;
+ width: 200px;
+ margin-top: 30px;
+ margin-bottom: 25px;
+ border-radius: 5px;
+ text-align: center;
+}
+
+.learn {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+}
+
+ul.chos li {
+  height: 35px;
+  line-height: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ul.chos li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.numbers {
+  margin-left: 85px;
+  margin-top: 50px;
+}
+
+.start-growing {
+  margin-top: 30px;
+}
+
+
+.foot-1 {
+  float: left;
+  background-color: #4C4FED;
+  height: 240px;
+  width: 240px;
+  margin-top: 30px;
+  margin-left: 10px;
+  text-align: center;
+
+}
+
+.foot-2 {
+  float: left;
+  background-color: #4C4FED;
+  height: 240px;
+  width: 240px;
+  margin-top: 30px;
+  margin-left: 40px;
+  text-align: center;
+
+}
+
+.foot-3 {
+  float: left;
+  background-color: #4C4FED;
+  height: 240px;
+  width: 260px;
+  margin-top: 30px;
+  margin-left: 40px;
+  text-align: center;
+
+}
+
+.foot-4 {
+  float: left;
+  background-color: #4C4FED;
+  height: 250px;
+  width: 260px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right:10px;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  color: #111230;
+}
+
+.Logo {
+  float: left;
+  text-align: left;
+  margin-left: 30px;
+}
+.inc {
+  text-align: right;
+  margin-right: 30px;
 }
